@@ -1,0 +1,50 @@
+ 
+ .main_header_container{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#43609C;
+    height: 10%;
+    overflow:hidden;
+}
+.main_link_logo{
+    width: fit-content;
+}
+.main_logo{
+    height:100%;
+    width:fit-content;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.main_title_container{
+    width:fit-content;
+}
+.main_title_div{
+    background-color: green;
+    border-radius: 5px;
+    padding:10px;
+    margin:0;
+    align-items:center;
+    color:white;
+}
+.main_title{
+    overflow:auto;
+    font-size: large;
+}
+.Main_login_btn_div{
+    width:fit-content;
+    height:30%;
+    margin-right:10px;
+}
+.main_signout_btn_btn{
+    width:100%;
+    height:100%;
+    color:white;
+    border-radius: 2px;
+    background-color: green;
+    font-size: 18px;
+}

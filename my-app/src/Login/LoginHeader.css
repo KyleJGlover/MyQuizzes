@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items:center;
+    background-color:#43609C;
+    justify-content:center; 
+    height: 83px;
+    overflow:hidden;
+}
+.header_logo{
+    height:100%;
+    object-fit: contain;
+    float:left;
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right:1000px;
+}
+.header_btn{
+    width: 138px;
+    height:30px;
+    color:white;
+    font-weight:400;
+    padding-top:7px;
+    border-radius:2px;
+    background-color:green;
+    position: relative;
+    float:right;
+    display: flex;
+    margin-left:50px;
+
+}
